@@ -1,0 +1,88 @@
+/* Place your CSS styles in this file */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+}
+        
+
+        body {
+            font-family: 'Heebo', sans-serif;
+            overflow: auto;
+        }
+
+        .content {
+            float: right;
+            width: 75%;
+            /*background-color:#aaa;*/
+        }
+
+        .panel {
+            float: left;
+            width: 24.5%;
+        }
+
+        .vl {
+            float: right;
+            width: 0.1%;
+            background-color: green;
+            height: 500px;
+        }
+
+        .content-container {
+            padding-left: 40px;
+            padding-right: 10px;
+        }
+
+        .headline {
+            color: white;
+            background-color: #E87979;
+            font-family: 'Heebo', sans-serif;
+            font-size: 36px;
+            line-height: 1.75;
+            padding-left: 5px;
+            padding-right: 5px;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+        }
+
+        .data {
+            color: #707070;
+        }
+        .twitter-timeline{
+            font-family: 'Heebo', sans-serif;
+            overflow: hidden;
+        }
+
+
+@media screen and (max-width: 481px){
+            body{
+                overflow: visible;
+            }
+            .content{
+                width: 100%;
+            }
+            .content-container{
+                width: 90%;
+            }
+            .vl{
+                display: none;
+            }
+            .panel{
+                display: none;
+            }
+            .headline {
+            color: white;
+            background-color: #E87979;
+            font-family: 'Heebo', sans-serif;
+            font-size: 22px;
+            line-height: 1.75;
+            padding-left: 5px;
+            padding-right: 5px;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+        }
+
+
+}
