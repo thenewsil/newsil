@@ -54,6 +54,9 @@ h1 {
             font-family: 'Heebo', sans-serif;
             overflow: hidden;
         }
+        .mobile-footer{
+            display: none;
+        }
 
 
 @media screen and (max-width: 481px){
@@ -82,6 +85,9 @@ h1 {
             padding-right: 5px;
             box-decoration-break: clone;
             -webkit-box-decoration-break: clone;
+        }
+        .mobile-footer{
+            display: inline;
         }
 
 
