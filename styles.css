@@ -26,7 +26,7 @@ h1 {
         .vl {
             float: right;
             width: 0.1%;
-            background-color: green;
+            background-color: #E87979;/*green;*/
             height: 500px;
         }
 
