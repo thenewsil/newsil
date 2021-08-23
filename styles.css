@@ -58,6 +58,17 @@ h1 {
             display: none;
         }
 
+        .update-in-body {
+            color: white;
+            background-color: #E87979;
+            font-family: 'Heebo', sans-serif;
+            line-height: 1.75;
+            padding-left: 5px;
+            padding-right: 5px;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+        }
+
 
 @media screen and (max-width: 481px){
             body{
